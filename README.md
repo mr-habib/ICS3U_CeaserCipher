@@ -9,7 +9,7 @@ The output will be an encoded string using the shift given.
 hello world
 1
 ```
-# Example Output
+## Example Output
 ```
 ifmmp xpsme
 ```
