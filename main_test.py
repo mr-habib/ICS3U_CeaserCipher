@@ -7,7 +7,7 @@ def test_ceaser_cipher_encode_normal_overflow():
     assert ceaser_cipher_encode("xyza", 1) == "yzab"
 
 def test_ceaser_cipher_encode_words():
-    assert ceaser_cipher_encode("hello my name is mr. habib", 3) == "jgnnq oa pcog ku ot jcdkd"
+    assert ceaser_cipher_encode("hello my name is mr habib", 2) == "jgnnq oa pcog ku ot jcdkd"
 
 def test_ceaser_cipher_encode_ignore_symbols():
     assert ceaser_cipher_encode("woah! there. are. a` few ~symbols here :j", 6) == "cugn! znkxk. gxk. g` lkc ~yeshury nkxk :p"
